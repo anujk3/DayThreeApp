@@ -24,4 +24,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)ClickMe:(id)sender {
+    self.labelInfo.text = self.textFieldText.text;
+}
+
 @end
