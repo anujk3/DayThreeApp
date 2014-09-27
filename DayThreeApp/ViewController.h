@@ -13,6 +13,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *labelInfo;
 @property (weak, nonatomic) IBOutlet UITextField *textFieldText;
 - (IBAction)ClickMe:(id)sender;
+- (IBAction)tappedNavButton:(id)sender;
+- (IBAction)tappedShowNewButton:(id)sender;
 
 @end
 

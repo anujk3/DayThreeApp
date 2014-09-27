@@ -9,6 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface SecondViewController : UIViewController
-- (IBAction)tappedClose:(id)sender;
 
 @end

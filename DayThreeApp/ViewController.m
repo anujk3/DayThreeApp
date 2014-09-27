@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SecondViewController.h"
 
 @interface ViewController ()
 
@@ -26,6 +27,16 @@
 
 - (IBAction)ClickMe:(id)sender {
     self.labelInfo.text = self.textFieldText.text;
+}
+
+- (IBAction)tappedNavButton:(id)sender {
+    SecondViewController *secondViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"secondViewController"];
+    [self.navigationController pushViewController:secondViewController animated:YES];
+}
+
+- (IBAction)tappedShowNewButton:(id)sender {
+    SecondViewController *secondViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"secondViewController"];
+    [self presentViewController:secondViewController animated:YES completion:nil];
 }
 
 @end

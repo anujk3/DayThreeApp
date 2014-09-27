@@ -43,7 +43,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="x2x-tL-hh9" kind="presentation" id="Pei-F6-ReR"/>
+                                    <action selector="tappedShowNewButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="wgZ-nX-huB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -63,7 +63,7 @@
                     <navigationItem key="navigationItem" id="fXH-HJ-LYR">
                         <barButtonItem key="rightBarButtonItem" title="Item" id="ZER-x5-xAW">
                             <connections>
-                                <segue destination="x2x-tL-hh9" kind="show" id="pG0-dm-f5i"/>
+                                <action selector="tappedNavButton:" destination="vXZ-lx-hvc" id="9o7-UE-Y9A"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -79,7 +79,7 @@
         <!--Second View Controller-->
         <scene sceneID="h82-0o-3U7">
             <objects>
-                <viewController id="x2x-tL-hh9" customClass="SecondViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="secondViewController" id="x2x-tL-hh9" customClass="SecondViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BUG-74-9tB"/>
                         <viewControllerLayoutGuide type="bottom" id="bdF-ck-OVX"/>
@@ -93,9 +93,6 @@
                                 <state key="normal" title="Close">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="tappedClose:" destination="x2x-tL-hh9" eventType="touchUpInside" id="PNe-5C-0rw"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -128,7 +125,4 @@
             <point key="canvasLocation" x="115" y="797"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="pG0-dm-f5i"/>
-    </inferredMetricsTieBreakers>
 </document>
