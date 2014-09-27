@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65309FB019D7712A005613FE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65309FAF19D7712A005613FE /* SecondViewController.m */; };
 		65F9BAA919D6F46B00B3667B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F9BAA819D6F46B00B3667B /* main.m */; };
 		65F9BAAC19D6F46B00B3667B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F9BAAB19D6F46B00B3667B /* AppDelegate.m */; };
 		65F9BAAF19D6F46B00B3667B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F9BAAE19D6F46B00B3667B /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65309FAE19D7712A005613FE /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		65309FAF19D7712A005613FE /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		65F9BAA319D6F46B00B3667B /* DayThreeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayThreeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F9BAA719D6F46B00B3667B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65F9BAA819D6F46B00B3667B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				65F9BAB319D6F46B00B3667B /* Images.xcassets */,
 				65F9BAB519D6F46B00B3667B /* LaunchScreen.xib */,
 				65F9BAA619D6F46B00B3667B /* Supporting Files */,
+				65309FAE19D7712A005613FE /* SecondViewController.h */,
+				65309FAF19D7712A005613FE /* SecondViewController.m */,
 			);
 			path = DayThreeApp;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65309FB019D7712A005613FE /* SecondViewController.m in Sources */,
 				65F9BAAF19D6F46B00B3667B /* ViewController.m in Sources */,
 				65F9BAAC19D6F46B00B3667B /* AppDelegate.m in Sources */,
 				65F9BAA919D6F46B00B3667B /* main.m in Sources */,
@@ -412,6 +418,7 @@
 				65F9BAC819D6F46C00B3667B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65F9BAC919D6F46C00B3667B /* Build configuration list for PBXNativeTarget "DayThreeAppTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				65F9BACB19D6F46C00B3667B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
